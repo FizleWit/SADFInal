@@ -1,0 +1,38 @@
+body{
+	background-color:rgb(167, 233, 167);
+}
+
+ul {
+  list-style-type: none;
+  margin: 5px;
+    width: 250px;
+  padding: 5px;
+  background-color: rgb(173, 230, 190);
+}
+
+.hl {
+  display: block;
+  color: rgb(52, 54, 53);
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.hl:hover {
+  background-color: red;
+  color: grey;
+}
+
+.HyperLink{
+	text-size: 25px;
+}
+table {
+	  border-collapse: collapse;
+	    width: 95%;
+    }
+
+th, td {
+	      text-align: left;
+	      padding: 5px;
+	}
+tr:nth-child(odd) {background-color: coral;}
+tr:nth-child(even) {background-color: teal;}
